@@ -186,40 +186,6 @@ Frontend berjalan pada:
 
 ---
 
-# 🔗 Menghubungkan Frontend & Backend
-
-Pada `main.py` pastikan CORS sudah aktif:
-
-```python
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-```
-
----
-
-# 🗄 Penggunaan PostgreSQL
-
-## Membuat database baru:
-
-```sql
-CREATE DATABASE reviewdb;
-```
-
-SQLAlchemy akan otomatis membuat tabel saat backend dijalankan.
-
-## Export database (opsional untuk laporan tugas)
-
-```bash
-pg_dump -U postgres -d reviewdb > reviewdb_dump.sql
-```
-
----
-
 # ⚠ Error Handling & Loading State
 
 ### Backend:
@@ -241,3 +207,4 @@ Tambahkan screenshot berikut untuk laporan:
 - Postman test <img width="1910" height="1194" alt="Screenshot 2025-12-12 200146" src="https://github.com/user-attachments/assets/9470f868-e98a-4238-8101-f05fa401af33" />
 
 - Tampilan tabel PostgreSQL <img width="1470" height="385" alt="image" src="https://github.com/user-attachments/assets/516e83fe-a7a1-49dd-b041-50556255f09d" />
+
