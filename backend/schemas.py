@@ -1,5 +1,5 @@
 # schemas.py
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 class ReviewCreate(BaseModel):
     text: str
@@ -10,7 +10,4 @@ class ReviewResponse(BaseModel):
     sentiment: str | None = None
     key_points: str | None = None
 
-    class Config:
-        orm_mode = True
-        # NOTE: if you're on pydantic v2, change to: from_attributes = True
-        # See pydantic docs if needed.
+    model_config = ConfigDict(from_attributes=True)
