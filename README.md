@@ -32,7 +32,6 @@ tugas_individu3/
 │   │   └── keypoints.py
 │   ├── requirements.txt
 │   ├── .env.example
-│   └── README_BACKEND.md
 │
 ├── frontend/
 │   ├── index.html
@@ -207,4 +206,5 @@ Tambahkan screenshot berikut untuk laporan:
 - Postman test <img width="1910" height="1194" alt="Screenshot 2025-12-12 200146" src="https://github.com/user-attachments/assets/9470f868-e98a-4238-8101-f05fa401af33" />
 
 - Tampilan tabel PostgreSQL <img width="1470" height="385" alt="image" src="https://github.com/user-attachments/assets/516e83fe-a7a1-49dd-b041-50556255f09d" />
+
 
