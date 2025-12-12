@@ -3,7 +3,7 @@
 Aplikasi full-stack untuk menganalisis review produk menggunakan **Hugging Face Sentiment Analysis** dan **Google Gemini Key Point Extraction**.  
 Hasil analisis ditampilkan pada **frontend React** dan disimpan ke database **PostgreSQL**.
 
-## ✨ Fitur Aplikasi
+# ✨ Fitur Aplikasi
 
 - 📝 User dapat memasukkan review produk (teks)
 - 😊 Analisis sentimen (positive / negative / neutral) menggunakan Hugging Face API
@@ -13,7 +13,7 @@ Hasil analisis ditampilkan pada **frontend React** dan disimpan ke database **Po
 - ⚡ Memiliki loading state dan error handling
 - 🔗 Backend terhubung ke frontend melalui REST API
 
-## 📁 Struktur Folder Project
+# 📁 Struktur Folder Project
 
 ```
 tugas_individu3/
@@ -40,9 +40,9 @@ tugas_individu3/
 └── README.md
 ```
 
-## 🚀 Teknologi yang Digunakan
+# 🚀 Teknologi yang Digunakan
 
-### **Backend**
+## **Backend**
 - FastAPI
 - SQLAlchemy ORM
 - PostgreSQL
@@ -50,7 +50,7 @@ tugas_individu3/
 - Google Gemini API
 - Uvicorn (server)
 
-### **Frontend**
+## **Frontend**
 - React JS
 - Vite
 - Axios
@@ -181,13 +181,14 @@ Frontend berjalan pada:
 - Disable tombol selama proses
 - Alert jika terjadi error jaringan/API
 
-# 📸 Screenshot (Opsional)
+# 📸 Screenshot
 Tambahkan screenshot berikut untuk laporan:
 - Tampilan frontend <img width="1918" height="1070" alt="Screenshot 2025-12-12 221814" src="https://github.com/user-attachments/assets/8b87822e-edd3-4f10-a56a-d686680d6d03" />
 
 - Postman test <img width="1910" height="1194" alt="Screenshot 2025-12-12 200146" src="https://github.com/user-attachments/assets/9470f868-e98a-4238-8101-f05fa401af33" />
 
 - Tampilan tabel PostgreSQL <img width="1470" height="385" alt="image" src="https://github.com/user-attachments/assets/516e83fe-a7a1-49dd-b041-50556255f09d" />
+
 
 
 
