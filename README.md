@@ -13,8 +13,6 @@ Hasil analisis ditampilkan pada **frontend React** dan disimpan ke database **Po
 - ⚡ Memiliki loading state dan error handling
 - 🔗 Backend terhubung ke frontend melalui REST API
 
----
-
 ## 📁 Struktur Folder Project
 
 ```
@@ -42,8 +40,6 @@ tugas_individu3/
 └── README.md
 ```
 
----
-
 ## 🚀 Teknologi yang Digunakan
 
 ### **Backend**
@@ -58,8 +54,6 @@ tugas_individu3/
 - React JS
 - Vite
 - Axios
-
----
 
 # 🛠 Instalasi Backend
 
@@ -114,8 +108,6 @@ python -m uvicorn main:app --reload
 Backend berjalan pada:
 👉 http://localhost:8000
 
----
-
 # 🔌 Dokumentasi API
 
 ## **POST /api/analyze-review**
@@ -138,8 +130,6 @@ Menganalisis review baru dan menyimpan hasilnya.
 }
 ```
 
----
-
 ## **GET /api/reviews**
 Mengambil semua review yang sudah disimpan.
 
@@ -155,8 +145,6 @@ Mengambil semua review yang sudah disimpan.
   }
 ]
 ```
-
----
 
 # 🖥 Instalasi Frontend
 
@@ -181,8 +169,6 @@ npm run dev
 Frontend berjalan pada:
 👉 http://localhost:5173
 
----
-
 # ⚠ Error Handling & Loading State
 
 ### Backend:
@@ -195,8 +181,6 @@ Frontend berjalan pada:
 - Disable tombol selama proses
 - Alert jika terjadi error jaringan/API
 
----
-
 # 📸 Screenshot (Opsional)
 Tambahkan screenshot berikut untuk laporan:
 - Tampilan frontend <img width="1918" height="1070" alt="Screenshot 2025-12-12 221814" src="https://github.com/user-attachments/assets/8b87822e-edd3-4f10-a56a-d686680d6d03" />
@@ -204,6 +188,7 @@ Tambahkan screenshot berikut untuk laporan:
 - Postman test <img width="1910" height="1194" alt="Screenshot 2025-12-12 200146" src="https://github.com/user-attachments/assets/9470f868-e98a-4238-8101-f05fa401af33" />
 
 - Tampilan tabel PostgreSQL <img width="1470" height="385" alt="image" src="https://github.com/user-attachments/assets/516e83fe-a7a1-49dd-b041-50556255f09d" />
+
 
 
 
