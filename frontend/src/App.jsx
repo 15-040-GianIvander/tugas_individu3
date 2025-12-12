@@ -202,7 +202,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <small>Built with ❤️ — Product Review Analyzer</small>
+        <small>Product Review Analyzer</small>
       </footer>
     </div>
   );
